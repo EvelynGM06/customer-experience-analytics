@@ -1,6 +1,6 @@
 # Customer Experience Analytics
 
-Machine learning and operations research applied to customer experience analysis and decision support.
+Machine learning and operations research applied to customer experience analysis and Net Promoter Score analysis.
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -17,7 +17,7 @@ This project analyzes customer experience data to identify the factors that most
 
 ## Objective
 
-Identify the customer experience drivers that have the greatest impact on customer recommendation and satisfaction.
+Identify the customer experience drivers with the greatest impact on Net Promoter Score (NPS) and provide analytical evidence to support business decision-making.
 
 ---
 
@@ -39,6 +39,7 @@ Identify the customer experience drivers that have the greatest impact on custom
 - GAMS
 - Pandas
 - NumPy
+- Plotly
 
 ---
 
@@ -58,9 +59,10 @@ project/
 ## Results
 
 * 193 survey responses.
-* Problem resolution identified as the strongest driver.
-* Age segmentation analysis.
-* Consistent findings between optimization and ML.
+* Problem resolution was identified as the most influential NPS driver.
+* Machine learning models validated the importance of customer experience drivers.
+* Age segmentation revealed different priorities among customer groups.
+* Optimization and predictive models produced consistent conclusions.
 
 ---
 
@@ -75,13 +77,11 @@ project/
 
 ## Acknowledgements 
 
-### Data Availability - NDA
-The original survey dataset is not distributed in this repository to preserve data confidentiality.
+### Data Availability 
+The original survey responses are not distributed in this repository to preserve confidentiality and academic integrity.
 
-###  Contributors
-This project was developed as part of a collaborative academic project.
-
-Team members:
+### Contributors
+This project was developed as part of a collaborative academic project with:
 - Omar José Bolaños Valencia
 - Raúl Adán Hernández González
 - Mauro Poblanno Quintero
